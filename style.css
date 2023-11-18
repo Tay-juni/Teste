@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #40C78B;
+    color: white ;
+}
+.ligne{
+    display: flex;
+}
+.btnheader{
+    height: 30px;
+    border: none;
+    background-color: #40C78B;
+    cursor: pointer;
+    font-family: consolas,monospace;
+}
+button{
+    margin: 0px 100px;
+}
+.input{
+    margin-top: 100px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.form-control{
+    width: 300px;
+    height: 35px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+/* .timerbtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+    font-family: consolas,monospace;
+} */
+#timeDisplay{
+    height: 100vh;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: white ;
+    font-family: consolas, monospace;
+}
